@@ -31,3 +31,7 @@ if nnUNet_results is None:
 
 Predict / Inference run:
 nnUNetv2_predict   -i "Code/nnUNet/data/output_COR"   -o "Code/nnUNet/data/pred"   -d 613   -c 3d_fullres_test   -tr nnUNetTrainer_2epochs   -p nnUNetPlans  --save_probabilities
+
+or python Code/nnUNet/predict_seg.py 
+
+upd
